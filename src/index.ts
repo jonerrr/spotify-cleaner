@@ -102,7 +102,7 @@ server.get<{ Querystring: CallBackQuery }>(
       }
 
       res.send({
-        status: `Spotify account cleaned!\n removed:\n ${albums.body.items.length} albums, ${artists.body.artists.items.length} artists, ${shows.body.items.length} shows, ${tracks.body.items.length} tracks, ${playlists.body.items.length} playlists`,
+        status: `Spotify account cleaned! Removed: ${albums.body.items.length} albums, ${artists.body.artists.items.length} artists, ${shows.body.items.length} shows, ${tracks.body.items.length} tracks, ${playlists.body.items.length} playlists.`,
       });
     } catch (err) {
       console.log(err);
