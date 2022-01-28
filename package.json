@@ -1,0 +1,24 @@
+{
+  "name": "spotify-clean",
+  "version": "1.0.0",
+  "description": "Clean  your spotify account!",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": ["spotify"],
+  "author": "Jonah",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "fastify": "^3.27.0",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "@types/node": "^17.0.13",
+    "@types/spotify-web-api-node": "^5.0.7",
+    "prettier": "^2.5.1"
+  }
+}
