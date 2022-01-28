@@ -46,7 +46,6 @@ server.get<{ Querystring: CallBackQuery }>("/", opts, async (req, res) => {
   res.redirect(
     spotify.createAuthorizeURL(
       [
-        "user-read-private",
         "user-follow-modify",
         "user-follow-read",
         "user-library-modify",
